@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:BL.Code"
+    xmlns:appconfig="clr-namespace:BL"
+    x:Class="BL.MyTabbedPage"
+    Title="首页"
+    BackgroundColor="{x:Static appconfig:AppConstants.BackgroundColor}"
+    BarBackgroundColor="{x:Static appconfig:AppConstants.BackgroundColor}"
+    BarTextColor="White"
+    SelectedTabColor="AliceBlue"
+    UnselectedTabColor="AntiqueWhite">
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="首页">
+    </ContentPage>
+    <local:HomePage Title="C# Pages">
+        <!--<local:HomePage.IconImageSource>
+            <OnPlatform x:TypeArguments="ImageSource">
+                <On Platform="iOS, Android"
+                    Value="/logo.png" />
+            </OnPlatform>
+        </local:HomePage.IconImageSource>-->
+    </local:HomePage>
+    <ContentPage Title="项目">
+        <Label Text="111"></Label>
+    </ContentPage>
+    <ContentPage Title="资讯" />
+    <ContentPage Title="我的" />
+    <ContentPage Title="问答" />
+    <ContentPage Title="关于我们" />
+    <ContentPage Title="行业资讯" />
+    <ContentPage Title="活动" />
+</TabbedPage>
