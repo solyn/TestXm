@@ -64,6 +64,14 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
+    <None Include="Resources\drawable\banner\1.jpeg" />
+    <None Include="Resources\drawable\banner\2.jpeg" />
+    <None Include="Resources\drawable\banner\3.jpeg" />
+    <None Include="Resources\drawable\banner\4.jpeg" />
+    <None Include="Resources\drawable\banner\5.jpeg" />
+    <None Include="Resources\drawable\banner\6.jpeg" />
+    <None Include="Resources\drawable\banner\7.jpeg" />
+    <None Include="Resources\drawable\home\logo.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.xml" />
@@ -86,11 +94,12 @@
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
     <Folder Include="Resources\drawable\home\" />
+    <Folder Include="Resources\drawable\banner\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\伯乐\伯乐.csproj">
       <Project>{828C57AE-1136-456B-9EE8-B741EB3D3923}</Project>
-      <Name>伯乐</Name>
+      <Name>BL</Name>
     </ProjectReference>
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

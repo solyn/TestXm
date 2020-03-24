@@ -129,11 +129,21 @@
   <ItemGroup>
     <ProjectReference Include="..\伯乐\伯乐.csproj">
       <Project>{828C57AE-1136-456B-9EE8-B741EB3D3923}</Project>
-      <Name>伯乐</Name>
+      <Name>BL</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\banner\" />
     <Folder Include="Resources\home\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\banner\1.jpeg" />
+    <BundleResource Include="Resources\banner\2.jpeg" />
+    <BundleResource Include="Resources\banner\3.jpeg" />
+    <BundleResource Include="Resources\banner\4.jpeg" />
+    <BundleResource Include="Resources\banner\5.jpeg" />
+    <BundleResource Include="Resources\banner\6.jpeg" />
+    <BundleResource Include="Resources\banner\7.jpeg" />
+    <BundleResource Include="Resources\home\logo.png" />
   </ItemGroup>
 </Project>
